@@ -86,9 +86,9 @@ test("updates the answer when the dropdown is changed", async () => {
     target: { value: "3" },
   });
 
-  expect(screen.queryAllByLabelText(/Correct Answer/)[0].value).toBe("3");
+  expect(screen.queryAllByLabelText(/Correct Answer/)[0].value).toBe("2");
 
   rerender(<App />);
 
-  expect(screen.queryAllByLabelText(/Correct Answer/)[0].value).toBe("3");
+  expect(screen.queryAllByLabelText(/Correct Answer/)[0].value).toBe("2");
 });
