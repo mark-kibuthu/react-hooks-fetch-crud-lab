@@ -4,7 +4,7 @@
 
 - Use the `useEffect` hook to fetch data from an API
 - Use event handlers with `fetch` to send data to an API
-- Update state after receiving data from an API
+- Update state after receiving data from an API.
 
 ## Introduction
 
